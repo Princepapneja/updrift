@@ -21,14 +21,13 @@
             --tracking-36:0.36px;
             --tracking-28:0.28px;
             --color-secondary:#01A6EE;
+           
         }
-
+        					
         *{
             font-family: "Outfit", sans-serif;
             font-optical-sizing: auto;
-
-
-        }
+       }
     </style>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,15 +38,14 @@
 
 <body>
     <!-- header -->
-    <header class="bg-black fixed w-full ">
+    <header class="bg-black z-10 fixed w-full ">
         <div class="container">
             <div class="flex justify-between gap-2">
                 <div class="flex items-center gap-2">
                     <img src="./assets/icons/upcirclearrow.svg" alt="Arrow">
                     <span class="text-white">Patient Uplift</span>
                 </div>
-                <button
-                onclick="openModal()"
+                <button onclick="openModal()"
                     class="px-4 py-2.5   flex items-center gap-3 text-sm leading-[16.8px] -tracking-28 text-white bg-white/20 rounded-md  "><span>
                         Book A Strategy Session
                     </span>
@@ -137,58 +135,49 @@
     <!-- practices -->
     <section>
         <div class="container">
-            <div class="max-w-[768px] w-full mx-auto">
+            <div class=" w-full mx-auto">
 
                 <h6 class="text-center text-black-v1 -tracking-36 leading-[27.9px] mb-2">Over 85 Practices supported in
                     their Growth</h6>
-                    <div class="swiper mySwiper mt-12">
-                        <div class="swiper-wrapper">
-                            <!-- Slide 1 -->
-                            <div class="swiper-slide flex justify-center !w-32 ">
-                                <img src="./assets/images/p1.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            <!-- Slide 2 -->
-                            <div class="swiper-slide flex justify-center !w-32">
-                                <img src="./assets/images/part.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            <!-- Slide 3 -->
-                            <div class="swiper-slide flex justify-center !w-32">
-                                <img src="./assets/images/p2.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            <!-- Slide 4 -->
-                            <div class="swiper-slide flex justify-center !w-32">
-                                <img src="./assets/images/p3.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            <div class="swiper-slide flex justify-center !w-32 ">
-                                <img src="./assets/images/p1.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            <!-- Slide 2 -->
-                            <div class="swiper-slide flex justify-center !w-32">
-                                <img src="./assets/images/part.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            <!-- Slide 3 -->
-                            <div class="swiper-slide flex justify-center !w-32">
-                                <img src="./assets/images/p2.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            <!-- Slide 4 -->
-                            <div class="swiper-slide flex justify-center !w-32">
-                                <img src="./assets/images/p3.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                           
-                            <!-- <div class="swiper-slide flex justify-center !w-32">
-                                <img src="./assets/images/p4.png" class=" h-auto grayscale" alt="Partner">
-                            </div>
-                            -->
-                            
-                        </div>
+                <div class="swiper mySwiper mt-12">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <img src="./assets/images/p1.png" class="swiper-slide h-auto grayscale object-cover"
+                            alt="Partner">
+                        <!-- Slide 2 -->
+                        <img src="./assets/images/p5.png" class="swiper-slide h-auto grayscale object-cover"
+                            alt="Partner">
+                        <!-- Slide 3 -->
+                        <img src="./assets/images/p2.png" class="swiper-slide h-auto grayscale object-cover"
+                            alt="Partner">
+                        <!-- Slide 4 -->
+                        <img src="./assets/images/p3.png" class="swiper-slide h-auto grayscale object-cover w-full"
+                            alt="Partner">
+                        <!-- Slide 1 -->
+                        <img src="./assets/images/p1.png" class="swiper-slide h-auto grayscale object-cover"
+                            alt="Partner">
+                        <!-- Slide 2 -->
+                        <img src="./assets/images/p5.png" class="swiper-slide h-auto grayscale object-cover"
+                            alt="Partner">
+                        <!-- Slide 3 -->
+                        <img src="./assets/images/p2.png" class="swiper-slide h-auto grayscale object-cover"
+                            alt="Partner">
+                        <!-- Slide 4 -->
+                        <img src="./assets/images/p3.png" class="swiper-slide h-auto grayscale object-cover w-full"
+                            alt="Partner">
+
+
+
+
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
 
 
     <!-- practices -->
     <!-- session -->
-    <section class="py-10 ">
+    <section class="py-5 md:py-10 ">
         <div class="container">
             <div class="grid place-items-center gap-8">
 
@@ -294,12 +283,12 @@
                                 reputation</strong> that expands beyond your city.
                         </p>
 
-                            <span class="text-black-v1 -tracking-36 leading-[28px] text-[18px]">But there’s a better
-                                way.
-                            </span>
+                        <span class="text-black-v1 -tracking-36 leading-[28px] text-[18px]">But there’s a better
+                            way.
+                        </span>
 
-                            <img src="./assets/images/sepi.png" class="w-[153px] h-[164px] object-cover mx-auto mt-4  rounded-full"
-                                alt="">
+                        <img src="./assets/images/sepi.png"
+                            class="w-[153px] h-[164px] object-cover mx-auto mt-4  rounded-full" alt="">
                         <div class="text-center">
 
                             <p
@@ -335,12 +324,12 @@
     <!-- session -->
 
     <!-- phase -->
-    <section class="py-10">
+    <section class="py-5 md:py-10">
         <div class="container">
             <div class="grid place-items-center gap-8 ">
 
                 <span class=" inline-flex items-center gap-3 border py-2 px-2 rounded-lg border-gray-v2">
-                    <img src="./assets/icons/warning.svg" alt="Arrow">
+                    <img src="./assets/icons/sec.svg" alt="Arrow">
                     <span class="leading-[20px] -tracking-36 text-black-v1">Our Secret Sauce</span>
 
                 </span>
@@ -447,12 +436,12 @@
     </section>
     <!-- phase -->
     <!-- solution -->
-    <section class="py-10">
+    <section class="py-5 md:py-10">
         <div class="container">
             <div class="grid place-items-center gap-8 ">
 
                 <span class=" inline-flex items-center gap-3 border py-2 px-2 rounded-lg border-gray-v2">
-                    <img src="./assets/icons/warning.svg" alt="Arrow">
+                    <img src="./assets/icons/sol.svg" alt="Arrow">
                     <span class="leading-[20px] -tracking-36 text-black-v1">The Solution</span>
 
                 </span>
@@ -522,12 +511,12 @@
     </section>
     <!-- solution -->
     <!-- success story -->
-    <section class="py-10">
+    <section class="py-5 md:py-10">
         <div class="container">
             <div class="grid place-items-center gap-8 ">
 
                 <span class=" inline-flex items-center gap-3 border py-2 px-2 rounded-lg border-gray-v2">
-                    <img src="./assets/icons/warning.svg" alt="Arrow">
+                    <img src="./assets/icons/cll.svg" alt="Arrow">
                     <span class="leading-[20px] -tracking-36 text-black-v1">Client Success Stories</span>
                 </span>
                 <div class="grid place-items-center">
@@ -542,12 +531,14 @@
                         class="text-primary font-semibold text-center  text-xl md:stext-[44px]    tracking-[-0.84px] md:leading-[50.4px]">
                         Jaw-Dropping Results</span>
                 </div>
-                <p class="-tracking-36 md:leading-[28px] font-light text-[18px] max-w-[577px] w-full mx-auto text-center">
+                <p
+                    class="-tracking-36 md:leading-[28px] font-light text-[18px] max-w-[577px] w-full mx-auto text-center">
                     With the exact system that has gotten them 2,000+ high-ticket patients for <strong>high-margin
                         procedures they enjoy doing.</strong>
                 </p>
-                <div class="space-y-7 max-w-[872px] w-full text-center border border-gray-v2 rounded-2xl p-6 md:py-8 md:px-12">
-                    <div class="flex items-center justify-center gap-3">
+                <div
+                    class="space-y-7 max-w-[872px] w-full text-center border border-gray-v2 rounded-2xl p-6 md:py-8 md:px-12">
+                    <div class="flex items-center justify-center gap-3 ">
                         <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                         <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                         <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
@@ -595,7 +586,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="space-y-7 text-center  max-w-[872px] w-full border border-gray-v2 rounded-2xl p-6 md:py-8 md:px-12">
+                <div
+                    class="space-y-7 text-center  max-w-[872px] w-full border border-gray-v2 rounded-2xl p-6 md:py-8 md:px-12">
                     <div class="flex items-center justify-center gap-3">
                         <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                         <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
@@ -653,7 +645,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="space-y-7 text-center  max-w-[872px] w-full border border-gray-v2 rounded-2xl p-6 md:py-8 md:px-12">
+                <div
+                    class="space-y-7 text-center  max-w-[872px] w-full border border-gray-v2 rounded-2xl p-6 md:py-8 md:px-12">
                     <div class="flex items-center justify-center gap-3">
                         <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                         <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
@@ -711,7 +704,7 @@
     </section>
     <!-- success story -->
     <!-- explosive -->
-    <section class="py-10">
+    <section class="py-5 md:py-10">
         <div class="container">
             <div>
                 <div class="space-y-7">
@@ -750,7 +743,8 @@
                                 <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                                 <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                             </div>
-                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px] py-6">18 Facial Aesthetic Surgery Inquiries in
+                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px] py-6">18 Facial Aesthetic Surgery
+                                Inquiries in
                                 1
                                 Week</h4>
                             <p class="text-sm leading-[24px]  text-black-v2">"On our first call with Uplift, the offer
@@ -790,7 +784,8 @@
                             </div>
 
 
-                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px]  py-6">10 Rhinoplasty Patients in the First Week
+                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px]  py-6">10 Rhinoplasty Patients in
+                                the First Week
                                 Week</h4>
                             <p class="text-sm leading-[24px]  text-black-v2">"Our practice aimed to attract more young
                                 women considering rhinoplasty, and Patient Uplift made that a reality.
@@ -828,12 +823,15 @@
                                 <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                                 <img src="./assets/icons/star.svg" class=" h-4 w-4 " alt="">
                             </div>
-                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px]  py-6">70% Procedures on 280 Surgical Inquiries in Less Than 3 Months</h4>
-                            <p class="text-sm leading-[24px]  text-black-v2">"70% of patients referred by Uplift proceed with surgery.
+                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px]  py-6">70% Procedures on 280
+                                Surgical Inquiries in Less Than 3 Months</h4>
+                            <p class="text-sm leading-[24px]  text-black-v2">"70% of patients referred by Uplift proceed
+                                with surgery.
 
                             </p>
                             <p class="text-sm leading-[24px] mt-4 text-black-v2">
-                                Uplift has provided us with over 280 surgical inquiries in less than three months and continues to support us with valuable resources and strategies to maximize our ROI."</p>
+                                Uplift has provided us with over 280 surgical inquiries in less than three months and
+                                continues to support us with valuable resources and strategies to maximize our ROI."</p>
                             <div class="flex items-center gap-3 mt-4 ">
                                 <img src="./assets/images/teams/t3.webp" class="h-[65px] w-[65px] rounded-full" alt="">
                                 <div class="grid  ">
@@ -864,12 +862,20 @@
                             </div>
 
 
-                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px]  py-6">90+ surgery inquiries in 10 days
+                            <h4 class="font-bold text-xl md:text-3xl md:leading-[42px]  py-6">90+ surgery inquiries in
+                                10 days
                             </h4>
-                            <p class="text-sm leading-[24px]  text-black-v2">"In less than 10 days since launching, we’ve received over 90 patient inquiries, seen 5 patients, and had 2 pay their deposits. I paused other marketing campaigns we were doing with another company, as Patient Uplift has far exceeded our expectations by delivering highly pre-screened patients. Their system helps us prioritise patients based on urgency, improving efficiency and conversion rates. We’ve been averaging 2 surgical bookings per week and are excited to see how this impacts our long-term growth. Their service goes beyond marketing—it’s designed to help you dominate your market quickly."
+                            <p class="text-sm leading-[24px]  text-black-v2">"In less than 10 days since launching,
+                                we’ve received over 90 patient inquiries, seen 5 patients, and had 2 pay their deposits.
+                                I paused other marketing campaigns we were doing with another company, as Patient Uplift
+                                has far exceeded our expectations by delivering highly pre-screened patients. Their
+                                system helps us prioritise patients based on urgency, improving efficiency and
+                                conversion rates. We’ve been averaging 2 surgical bookings per week and are excited to
+                                see how this impacts our long-term growth. Their service goes beyond marketing—it’s
+                                designed to help you dominate your market quickly."
 
                             </p>
-                          
+
                             <div class="flex items-center gap-3 mt-4 ">
                                 <img src="./assets/images/teams/t4.webp" class="h-[65px] w-[65px]" alt="">
                                 <div class="grid  ">
@@ -902,7 +908,7 @@
     </section>
     <!-- explosive -->
     <!-- benefits -->
-    <section class="py-10">
+    <section class="py-5 md:py-10">
         <div class="container">
             <div class="grid place-items-center gap-8 ">
 
@@ -970,8 +976,9 @@
                             </p>
 
                             <p class="  text-center leading-[24.8px] text-sm -tracking-36  text-black-v3 ">
-                                Experience a <strong>commitment-free partnership</strong>  that proves its value month after month, giving you complete flexibility.
-                                
+                                Experience a <strong>commitment-free partnership</strong> that proves its value month
+                                after month, giving you complete flexibility.
+
                             </p>
                         </div>
                         <div class="border-1 border-gray-v2  space-y-4 gap-2 rounded-2xl p-8 w-full">
@@ -982,19 +989,21 @@
                             </p>
 
                             <p class="  text-center leading-[24.8px] text-sm -tracking-36  text-black-v3 ">
-                                Stay in the know with real-time insights and clear metrics that show exactly how <strong>your investment turns into high-value leads.</strong>  
-                                </p>
+                                Stay in the know with real-time insights and clear metrics that show exactly how
+                                <strong>your investment turns into high-value leads.</strong>
+                            </p>
                         </div>
                         <div class="border-1 border-gray-v2  space-y-4 gap-2 rounded-2xl p-8 w-full">
                             <div> <img src="assets/images/arr5.png" alt="" class="m-auto"></div>
                             <p class="font-medium text-2xl leading-[30px] -tracking-36 text-center ">
-                                Fully HIPAA 
+                                Fully HIPAA
                                 Compliant
                             </p>
 
                             <p class="  text-center leading-[24.8px] text-sm -tracking-36  text-black-v3 ">
-                                Operate with complete peace of mind knowing our system meets the<strong>highest HIPAA standards</strong>  for security and privacy. 
-                               </p>
+                                Operate with complete peace of mind knowing our system meets the<strong>highest HIPAA
+                                    standards</strong> for security and privacy.
+                            </p>
                         </div>
 
                     </div>
@@ -1014,13 +1023,13 @@
     </section>
     <!-- benefits -->
     <!-- partners -->
-    <section class="py-10">
+    <section class="py-5 md:py-10">
         <!--  heading and icon -->
         <div class="container">
             <div class="grid place-items-center gap-8">
 
                 <span class=" inline-flex items-center gap-3 border py-2 px-2 rounded-lg border-gray-v2">
-                    <img src="./assets/icons/symbol_handshake.svg" alt="Arrow">
+                    <img src="./assets/icons/pf.svg" alt="Arrow">
                     <span class="leading-[20px] -tracking-36 text-black-v1">Our Perfect Partners</span>
 
                 </span>
@@ -1046,7 +1055,7 @@
                     </div>
                     <div class="grid place-items-center md:flex mt-8  justify-center gap-8">
                         <img class="max-w-[80px] h-auto " src="assets/images/abc.png" alt="" />
-                        
+
                         <div class="lg:text-base/[24px] text-sm space-y-2">
                             <p class="font-bold text-black-v2">
                                 Dreaming of being the region’s top surgeon?
@@ -1120,7 +1129,7 @@
                     <div class="lg:text-3xl/[42px] sm:text-xl text-sm font-bold text-center">
                         <p class="flex justify-center">
                             You’re Finally Ready to Solve
-  
+
                         </p>
                         <p class="text-center gap-1">
                             <span class="text-primary">
@@ -1138,11 +1147,12 @@
                         <div class="lg:text-base/[24px] text-sm space-y-2">
                             <p class="font-bold text-black-v2">
                                 Not sure what to do next to grow your practice?
- 
+
 
                             </p>
                             <p class="font-medium max-w-[348px] w-full text-black-v2">
-                                Our targeted strategies ignite a surge of premium leads and build your reputation fast—transforming you into the trusted, in-demand surgeon you were meant to be.  
+                                Our targeted strategies ignite a surge of premium leads and build your reputation
+                                fast—transforming you into the trusted, in-demand surgeon you were meant to be.
                             </p>
                         </div>
                     </div>
@@ -1154,7 +1164,7 @@
                     <div class="lg:text-3xl/[42px] sm:text-xl text-sm font-bold text-center">
                         <p class="flex justify-center">
                             You’re Looking for an
-  
+
                         </p>
                         <p class="text-center gap-1">
                             <span class="text-primary">
@@ -1173,10 +1183,11 @@
                         <div class="lg:text-base/[24px] text-sm space-y-2">
                             <p class="font-bold text-black-v2">
                                 You need a partner who’s been there and done that.
-                               
+
                             </p>
                             <p class="font-medium max-w-[348px] w-full text-black-v2">
-                                With proven strategies that have transformed 85+ practices in 5 countries, we’re ready to help you rise above the competition and secure your place as an industry leader.
+                                With proven strategies that have transformed 85+ practices in 5 countries, we’re ready
+                                to help you rise above the competition and secure your place as an industry leader.
 
                             </p>
                         </div>
@@ -1195,27 +1206,28 @@
     </section>
 
     <!-- partners -->
-     <!-- accordion section  -->
-     <section class="py-10 ">
+    <!-- accordion section  -->
+    <section class="py-5 md:py-10 ">
         <div class="container">
             <div class="grid place-items-center gap-8">
 
                 <span class="  inline-flex items-center gap-3 border py-2 px-2 rounded-lg border-gray-v2">
-                    <img src="./assets/icons/warning.svg" alt="Arrow">
+                    <img src="./assets/icons/fire.svg" alt="Arrow">
                     <span class="leading-[20px] -tracking-36 text-black-v1">Book Your Session Now</span>
 
                 </span>
                 <p
                     class="font-semibold text-center text-black-v1 text-xl md:text-[42px] max-w-[991px] w-full  tracking-[-0.84px] md:leading-[50.4px]">
 
-                    Schedule Your   <span class="text-primary">Free Strategy Session</span>Now
+                    Schedule Your <span class="text-primary">Free Strategy Session</span>Now
                 </p>
                 <div class="max-w-[577px] w-full   ">
 
-                    
+
                     <div class="space-y-7 ">
                         <!-- accordion  -->
-                         <h4 class="leading-[28px] text-black-v1 -tracking-36 text-center text-[18px]">What’s included:</h4>
+                        <h4 class="leading-[28px] text-black-v1 -tracking-36 text-center text-[18px]">What’s included:
+                        </h4>
                         <div class="space-y-4">
                             <div class="rounded-xl shadow-md bg-white shadow-[0px_10px_20px_rgba(0,0,0,0.1)]">
                                 <button
@@ -1240,7 +1252,8 @@
                                     <span class="flex items-center">
                                         <span
                                             class="text-secondary leading-[20px] text-xl -tracking-[0.54px] font-bold mr-2">2.</span>
-                                        <span class="text-black-v3">Custom marketing blueprint tailored to your practice</span>
+                                        <span class="text-black-v3">Custom marketing blueprint tailored to your
+                                            practice</span>
                                     </span>
                                     <span id="icon-6" class="text-secondary text-lg font-bold">+</span>
                                 </button>
@@ -1256,7 +1269,8 @@
                                     <span class="flex items-center">
                                         <span
                                             class="text-secondary leading-[20px] text-xl -tracking-[0.54px] font-bold mr-2">3.</span>
-                                        <span class="text-black-v3">Actionable steps to become the #1 surgeon in your region</span>
+                                        <span class="text-black-v3">Actionable steps to become the #1 surgeon in your
+                                            region</span>
                                     </span>
                                     <span id="icon-7" class="text-secondary text-lg font-bold">+</span>
                                 </button>
@@ -1272,7 +1286,8 @@
                                     <span class="flex items-center">
                                         <span
                                             class="text-secondary leading-[20px] text-xl -tracking-[0.54px] font-bold mr-2">4.</span>
-                                        <span class="text-black-v3">Review of your current lead system & how to get more patients</span>
+                                        <span class="text-black-v3">Review of your current lead system & how to get more
+                                            patients</span>
                                     </span>
                                     <span id="icon-8" class="text-secondary text-lg font-bold">+</span>
                                 </button>
@@ -1287,7 +1302,8 @@
                                     <span class="flex items-center">
                                         <span
                                             class="text-secondary leading-[20px] text-xl -tracking-[0.54px] font-bold mr-2">5.</span>
-                                        <span class="text-black-v3">Proven system used by 85+ satisfied surgeons before you</span>
+                                        <span class="text-black-v3">Proven system used by 85+ satisfied surgeons before
+                                            you</span>
                                     </span>
                                     <span id="icon-9" class="text-secondary text-lg font-bold">+</span>
                                 </button>
@@ -1296,53 +1312,62 @@
                                 </div>
                             </div>
                         </div>
-                           
+
                         <!-- accordion  -->
-                        <p class="text-center max-w-[400px] w-full mx-auto">Note: This Strategy Session is free but we only work with
-                           <span class="text-primary"> 1 surgeon per region,</span> so book now to lock in your spot.</p>
+                        <p class="text-center max-w-[400px] w-full mx-auto">Note: This Strategy Session is free but we
+                            only work with
+                            <span class="text-primary"> 1 surgeon per region,</span> so book now to lock in your spot.
+                        </p>
 
-                            <button onclick="openModal()"
-                                class="bg-primary flex mx-auto  shadow-[0px_3px_0px_0px_#D0ACFE,0px_7px_39px_0px_#5A00CF80]  items-center gap-3  p-4 text-white rounded-lg leading-[21.6px] -tracking-36 --drop-shadow-primary ">
-                                <span> Book a Strategy Session Now</span>
-                                <img class="bg-white/20 p-2 rounded-md" src="./assets/icons/right-arrow.svg"
-                                    alt="Arrow">
-                            </button>
-                          
-                    </div>
-
+                        <button onclick="openModal()"
+                            class="bg-primary flex mx-auto  shadow-[0px_3px_0px_0px_#D0ACFE,0px_7px_39px_0px_#5A00CF80]  items-center gap-3  p-4 text-white rounded-lg leading-[21.6px] -tracking-36 --drop-shadow-primary ">
+                            <span> Book a Strategy Session Now</span>
+                            <img class="bg-white/20 p-2 rounded-md" src="./assets/icons/right-arrow.svg" alt="Arrow">
+                        </button>
 
                     </div>
+
+
                 </div>
             </div>
+        </div>
 
 
         </div>
     </section>
-     <!-- accordion section -->
-      <!-- swiper -->
-      <section class="py-10">
+    <!-- accordion section -->
+    <!-- swiper -->
+    <section class="py-5 md:py-10">
 
-        
+
 
         <div class="container overflow-hidden">
-            <h4 class=" font-semibold text-center text-black-v1 text-xl md:text-[42px] max-w-[550px] mx-auto w-full  tracking-[-0.84px] md:leading-[50.4px]">Trusted By Surgeons To
-                <span class="text-primary ">Become The Industry Leader</span></h4>
+            <h4
+                class=" font-semibold text-center text-black-v1 text-xl md:text-[42px] max-w-[550px] mx-auto w-full  tracking-[-0.84px] md:leading-[50.4px]">
+                Trusted By Surgeons To
+                <span class="text-primary ">Become The Industry Leader</span>
+            </h4>
             <div class="swiper-container mt-8">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper ">
                     <!-- Slide 1 -->
-                    <div class="swiper-slide p-6  border border-gray-v2 bg-white rounded-2xl shadow-lg">
-                        <div class="flex justify-center items-center gap-2">
+                    <div class="swiper-slide p-6 !h-auto !grid border border-gray-v2 bg-white rounded-2xl shadow-lg">
+                        <div class="flex justify-center items-center gap-2 self-start">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                         </div>
-                        <h4 class="font-bold text-[34px] leading-[42px] py-4">18 Facial Aesthetic Surgery Inquiries in 1 Week</h4>
-                        <p class="text-sm text-black-v2">“In less than a week, we have gotten 18 facial aesthetic surgery inquiries, booked 5 consultations, and we are seeing 2 patients today."</p>
-                      
-                        <div class="flex items-center mt-4">
-                            <img src="./assets/images/doctor.png" class="h-[50px] w-[50px]" alt="">
+                        <div>
+
+                            <h4 class="font-bold text-[34px] leading-[42px] py-4">18 Facial Aesthetic Surgery Inquiries in 1
+                                Week</h4>
+                                <p class=" text-black-v2">“In less than a week, we have gotten 18 facial aesthetic
+                                    surgery inquiries, booked 5 consultations, and we are seeing 2 patients today."</p>
+                                </div>
+
+                        <div class="flex items-center self-end ">
+                            <img src="./assets/images/teams/t1.webp" class="h-[50px] w-[50px] rounded-full " alt="">
                             <div class="ml-3">
                                 <span class="text-lg font-medium text-black-v2">Dr. Henry Chen</span>
                                 <p class="text-sm text-black-v2">M.D.I Plastic Surgeon, </p>
@@ -1350,21 +1375,26 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <!-- Slide 2 (Duplicate for more slides) -->
-                    <div class="swiper-slide p-6  border border-gray-v2 bg-white rounded-2xl shadow-lg">
-                        <div class="flex justify-center items-center gap-2">
+                    <div class="swiper-slide p-6 !h-auto !grid   border border-gray-v2   bg-white rounded-2xl shadow-lg">
+                        <div class="flex justify-center items-center gap-2 self-start">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                         </div>
-                        <h4 class="font-bold text-[34px] leading-[42px] py-4">10 Rhinoplasty Patients in the First Week</h4>
-                        <p class="text-sm text-black-v2">"In just the first week, we received 30 inquiries and have already seen 10 patients. This has truly exceeded my expectations!"</p>
-                        
-                        <div class="flex items-center mt-4">
-                            <img src="./assets/images/Oval.png" class="h-[50px] w-[50px]" alt="">
+                        <div>
+
+                            <h4 class="font-bold text-[34px] leading-[42px] py-4">10 Rhinoplasty Patients in the First Week
+                            </h4>
+                            <p class=" text-black-v2">"In just the first week, we received 30 inquiries and have
+                                already seen 10 patients. This has truly exceeded my expectations!"</p>
+                                
+                            </div>
+                        <div class="flex items-center self-end">
+                            <img src="./assets/images/teams/t2.jpg" class="h-[50px] w-[50px] rounded-full" alt="">
                             <div class="ml-3">
                                 <span class="text-lg font-medium text-text-black-v1">Michael Salzhauer</span>
                                 <p class="text-sm text-black-v2">Miami Board-Certified Plastic Surgeon, </p>
@@ -1372,139 +1402,155 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide p-6  border border-gray-300 bg-white rounded-2xl shadow-lg">
-                        <div class="flex justify-center items-center gap-2">
+                    <div class="swiper-slide p-6 !h-auto !grid  border border-gray-v2 bg-white rounded-2xl shadow-lg">
+                        <div class="flex justify-center items-center gap-2 self-start">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                             <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
                         </div>
-                        <h4 class="font-bold text-[34px] leading-[42px] py-4">This is a 4th case study placeholder</h4>
-                        <p class="text-sm text-black-v2">"In less than a week, we have gotten 18 facial aesthetic surgery inquiries, booked 5 consultations, and we are seeing 2 patients today."</p>
-                        
-                        <div class="flex items-center mt-4">
-                            <img src="./assets/images/i1.png" class="h-[50px] w-[50px]" alt="">
+                        <div>
+
+                            <h4 class="font-bold text-[34px] leading-[42px] py-4">70% Procedures on 280 Surgical Inquiries in Less Than 3 Months</h4>
+                            <p class=" text-black-v2">"70% of patients referred by Uplift proceed with surgery.
+                                
+                                Uplift has provided us with over 280 surgical inquiries in less than three months and continues to support us with valuable resources and strategies to maximize our ROI."
+                                
+                            </p>
+                        </div>
+
+                        <div class="flex items-center self-end">
+                            <img src="./assets/images/teams/t3.webp" class="h-[50px] w-[50px] rounded-full" alt="">
                             <div class="ml-3">
-                                <span class="text-lg font-medium text-text-black-v1">Dr. Henry Chen</span>
-                                <p class="text-sm text-black-v2">Weight Loss Surgeon, </p>
+                                <span class="text-lg font-medium text-text-black-v1">Tony Papanotis
+                                </span>
+                                <p class="text-sm text-black-v2">Weight Loss Surgeon,
+                                    , </p>
+                                <span class="text-sm text-black-v2">Client of Patient Uplift
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-6 !h-auto !grid  border border-gray-v2 bg-white rounded-2xl shadow-lg">
+                        <div class="flex justify-center items-center gap-2 self-start">
+                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
+                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
+                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
+                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
+                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
+                        </div>
+                        <div>
+
+                            <h4 class="font-bold text-[34px] leading-[42px] py-4">90+ surgery inquiries in 10 days</h4>
+                            <p class=" text-black-v2">"In less than 10 days since launching, we’ve received over 90 patient inquiries, seen 5 patients, and had 2 pay their deposits. I paused other marketing campaigns we were doing with another company, as Patient Uplift has far exceeded our expectations by delivering highly pre-screened patients. Their system helps us prioritise patients based on urgency, improving efficiency and conversion rates. We’ve been averaging 2 surgical bookings per week and are excited to see how this impacts our long-term growth. Their service goes beyond marketing—it’s designed to help you dominate your market quickly."</p>
+                            
+                        </div>
+                            <div class="flex items-center mt-4 self-end">
+                            <img src="./assets/images/teams/t4.webp" class="h-[50px] w-[50px] rounded-full" alt="">
+                            <div class="ml-3">
+                                <span class="text-lg font-medium text-text-black-v1">Dr. Jack Hua
+                                </span>
+                                <p class="text-sm text-black-v2">MD-Cosmetic, Plastic & Reconstructive Surgeon,
+                                   </p>
                                 <span class="text-sm text-black-v2">Client of Patient Uplift</span>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="swiper-slide p-6  border border-gray-300 bg-white rounded-2xl shadow-lg">
-                        <div class="flex justify-center items-center gap-2">
-                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
-                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
-                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
-                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
-                            <img src="./assets/icons/star.svg" class="h-4 w-4" alt="">
-                        </div>
-                        <h4 class="font-bold text-[34px] leading-[42px] py-4">10 Rhinoplasty Patients in the First Week</h4>
-                        <p class="text-sm text-black-v2">"In just the first week, we received 30 inquiries and have already seen 10 patients. This has truly exceeded my expectations!"</p>
-                        
-                        <div class="flex items-center mt-4">
-                            <img src="./assets/images/Oval.png" class="h-[50px] w-[50px]" alt="">
-                            <div class="ml-3">
-                                <span class="text-lg font-medium text-text-black-v1">Dr. Emily Watson</span>
-                                <p class="text-sm text-black-v2">Cosmetic Surgeon, </p>
-                                <span class="text-sm text-black-v2">Uplift Client</span>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
+                      </div>
             </div>
-    
+
             <!-- Custom Navigation Buttons -->
             <div class="flex justify-center gap-4 mt-6">
-                <button id="prevBtn" class="  rounded-lg"><img class="rotate-180" src="./assets/icons/slider-l.png" alt=""></button>
+                <button id="prevBtn" class="  rounded-lg"><img class="rotate-180" src="./assets/icons/slider-l.png"
+                        alt=""></button>
                 <button id="nextBtn" class=" rounded-lg"><img src="./assets/icons/slider-l.png" alt=""></button>
             </div>
         </div>
-          
+
     </section>
-    <section class="py-10">
+    <section class="py-5 md:py-10">
         <div class="container">
             <div class="w-full md:w-[1000px] mx-auto   ">
                 <h1 class="text-3xl font-bold text-center text-gray-900 mb-16">
-                  How We Compare
+                    How We Compare
                 </h1>
-          
+
                 <div class="grid grid-cols-4 gap-x-8 gap-y-6 mb-16 overflow-auto   ">
-                  <div class="col-span-1"></div>
-                  <div class="text-primary font-semibold text-center">Patient Uplift</div>
-                  <div class="text-black-v2 font-semibold text-center">
-                    Typical Agencies
-                  </div>
-                  <div class="text-black-v2 font-semibold text-center">In-House Team</div>
-                  <div class="text-black-v2 font-medium pr-4">
-                    Plug & Play Practice Growth Team
-                  </div>
-                  <div class="flex justify-center">
-                   <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
-                  </div>
-                  <div class="flex justify-center">
-                      <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                  </div>
-                  <div class="flex justify-center">
-                    <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                  </div>
-                  <div class="text-gray-800 font-medium pr-4">
-                    A-Z Patient Pipeline Management
-                  </div>
-                  <div class="flex justify-center">
-                    <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                       <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                     <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                  <div class="text-gray-800 font-medium pr-4">
-                    Cutting-Edge Practice Growth Strategies
-                  </div>
-                  <div class="flex justify-center">
-                    <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                       <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                     <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                  <div class="text-gray-800 font-medium pr-4">No Lock In Contracts</div>
-                  <div class="flex justify-center">
-                    <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                       <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                     <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                  <div class="text-gray-800 font-medium pr-4">Obsessed with ROI</div>
-                  <div class="flex justify-center">
-                    <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                       <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                     <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                  <div class="text-gray-800 font-medium pr-4">
-                    Tangible Results in 28 Days
-                  </div>
-                  <div class="flex justify-center">
-                    <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                       <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
-                   <div class="flex justify-center">
-                     <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
-                   </div>
+                    <div class="col-span-1"></div>
+                    <div class="text-primary font-semibold text-center">Patient Uplift</div>
+                    <div class="text-black-v2 font-semibold text-center">
+                        Typical Agencies
+                    </div>
+                    <div class="text-black-v2 font-semibold text-center">In-House Team</div>
+                    <div class="text-black-v2 font-medium pr-4">
+                        Plug & Play Practice Growth Team
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="text-gray-800 font-medium pr-4">
+                        A-Z Patient Pipeline Management
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="text-gray-800 font-medium pr-4">
+                        Cutting-Edge Practice Growth Strategies
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="text-gray-800 font-medium pr-4">No Lock In Contracts</div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="text-gray-800 font-medium pr-4">Obsessed with ROI</div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="text-gray-800 font-medium pr-4">
+                        Tangible Results in 28 Days
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/gcheck.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="./assets/icons/r-cross.png" class="max-w-[32px] h-[32px]" alt="">
+                    </div>
                 </div>
                 <div class=" text-center ">
                     <button onclick="openModal()"
@@ -1512,20 +1558,20 @@
                         <span> Book a Strategy Session Now</span>
                         <img class="bg-white/20 p-2 rounded-md" src="./assets/icons/right-arrow.svg" alt="Arrow">
                     </button>
-                 
+
                 </div>
-              </div>
+            </div>
         </div>
     </section>
 
     <!-- swiper -->
-     <!-- guarantee -->
-    <section class="py-10">
+    <!-- guarantee -->
+    <section class="py-5 md:py-10">
         <div class="container">
             <div class="grid place-items-center gap-8">
 
                 <span class="  inline-flex items-center gap-3 border py-2 px-2 rounded-lg border-gray-v2">
-                    <img src="./assets/icons/warning.svg" alt="Arrow">
+                    <img src="./assets/icons/rib.png" class="h-[21px] w-[21px]" alt="Arrow">
                     <span class="leading-[20px] -tracking-36 text-black-v1">Our Guarantee</span>
 
                 </span>
@@ -1534,12 +1580,16 @@
 
                     Our “<span class="text-primary">“60 Patients in 28 Days”</span>Guarantee
                 </p>
-                <div class="max-w-[577px] w-full  md:text-[18px] font-medium md:leading-[28px]   -tracking-36 text-black-v1 text-center">
+                <div
+                    class="max-w-[577px] w-full  md:text-[18px] font-medium md:leading-[28px]   -tracking-36 text-black-v1 text-center">
 
                     <p>
-                        We’re so confident in our proven system that we guarantee to get you 60 new high-ticket patient inquiries in just 28 days. Not low-quality leads -- we’re talkin’ procedures like <strong>rhinoplasty, facelifts, and mommy makeovers.</strong>
+                        We’re so confident in our proven system that we guarantee to get you 60 new high-ticket patient
+                        inquiries in just 28 days. Not low-quality leads -- we’re talkin’ procedures like
+                        <strong>rhinoplasty, facelifts, and mommy makeovers.</strong>
                     </p>
-                  <p class="mt-8"> If we don’t hit that mark, we’ll work for free until we do. With our proven track record of success, this promise is <strong>entirely risk-free for you.</strong></p>
+                    <p class="mt-8"> If we don’t hit that mark, we’ll work for free until we do. With our proven track
+                        record of success, this promise is <strong>entirely risk-free for you.</strong></p>
 
                 </div>
                 <div class=" text-center space-y-4">
@@ -1553,18 +1603,18 @@
                         Only taking on 3 new clients per month so book while spots are available!
                     </span>
                 </div>
-                </div>
+            </div>
         </div>
     </section>
-   
-     <!-- guarantee -->
-     <!-- Faq -->
-     <section class="py-10">
+
+    <!-- guarantee -->
+    <!-- Faq -->
+    <section class="py-5 md:py-10">
         <div class="container">
             <div class="grid place-items-center gap-8">
 
                 <span class="  inline-flex items-center gap-3 border py-2 px-2 rounded-lg border-gray-v2">
-                    <img src="./assets/icons/warning.svg" alt="Arrow">
+                    <img src="./assets/icons/ques.svg" alt="Arrow">
                     <span class="leading-[20px] -tracking-36 text-black-v1">Frequently Asked Questions</span>
 
                 </span>
@@ -1575,7 +1625,7 @@
                 </p>
                 <div class="max-w-[577px] w-full   ">
 
-                    
+
                     <div class="space-y-7 ">
                         <!-- accordion  -->
                         <div class="space-y-4">
@@ -1635,7 +1685,8 @@
                                     <span class="flex items-center">
                                         <span
                                             class="text-secondary leading-[20px] text-xl -tracking-[0.54px] font-bold mr-2">4.</span>
-                                        <span class="text-black-v3">What if I’ve tried this before, and it didn’t work?</span>
+                                        <span class="text-black-v3">What if I’ve tried this before, and it didn’t
+                                            work?</span>
                                     </span>
                                     <span id="icon-13" class="text-secondary text-lg font-bold">+</span>
                                 </button>
@@ -1705,33 +1756,33 @@
                                 </div>
                             </div>
                         </div>
-                           
+
                         <!-- accordion  -->
                         <a href class=" block ">
                             Anything else?
-                            </a>
+                        </a>
                         <a href class=" block ">
                             Book your free strategy call below and we’ll fill you in on any other details!
-                            </a>
+                        </a>
 
-                           <div class=" text-center space-y-4">
+                        <div class=" text-center space-y-4">
 
-                            <button
-                            onclick="openModal()"
+                            <button onclick="openModal()"
                                 class="bg-primary flex mx-auto shadow-[0px_3px_0px_0px_#D0ACFE,0px_7px_39px_0px_#5A00CF80]   items-center gap-3  p-4 text-white rounded-lg leading-[21.6px] -tracking-36 --drop-shadow-primary ">
                                 <span> Book a Strategy Session Now</span>
-                                <img class="bg-white/20 p-2 rounded-md" src="./assets/icons/right-arrow.svg" alt="Arrow">
+                                <img class="bg-white/20 p-2 rounded-md" src="./assets/icons/right-arrow.svg"
+                                    alt="Arrow">
                             </button>
                             <span class="-tracking-36 text-center mt-4 text-black-v1 text-xs leading-[27.9px]">
                                 Limited to 1 Surgeon per Region -- book now to see if yours is still available!
                             </span>
                         </div>
-                          
+
                     </div>
 
 
-                    </div>
                 </div>
+            </div>
         </div>
     </section>
     <!-- Modal -->
@@ -1740,24 +1791,28 @@
             <!-- Modal Header -->
             <div class="flex justify-between items-center border-b pb-3">
                 <h2 class="text-xl font-bold text-gray-800">Booking</h2>
-                <button onclick="closeModal()" class="text-gray-600 hover:text-gray-900 text-xl font-bold px-3 py-1 rounded-lg">
+                <button onclick="closeModal()"
+                    class="text-gray-600 hover:text-gray-900 text-xl font-bold px-3 py-1 rounded-lg">
                     &times;
                 </button>
             </div>
-            
+
             <!-- Iframe Section -->
             <div class="mt-4">
-                <iframe src="https://api.leadconnectorhq.com/widget/booking/Sq1TC49keNZ2dCdGY0xP" style="width: 100%;border:none;overflow: hidden;" scrolling="no" id="TwqRmQrZCH5JABDlwZwI_1741010786985"></iframe><br><script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
+                <iframe src="https://api.leadconnectorhq.com/widget/booking/Sq1TC49keNZ2dCdGY0xP"
+                    style="width: 100%;border:none;overflow: hidden;" scrolling="no"
+                    id="TwqRmQrZCH5JABDlwZwI_1741010786985"></iframe><br>
+                <script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
             </div>
         </div>
     </div>
     <footer class="py-3 bg-black text-white">
-                    <p class="text-center ">© 2025 Patient Uplift</p>
-             
+        <p class="text-center ">© 2025 Patient Uplift</p>
+
     </footer>
 
-     <!-- Faq -->
-     <script>
+    <!-- Faq -->
+    <script>
         function toggleAccordion(index) {
             const content = document.getElementById(`content-${index}`);
             const icon = document.getElementById(`icon-${index}`);
@@ -1765,32 +1820,39 @@
             icon.textContent = content.classList.contains("hidden") ? "+" : "−";
         }
         var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 3,  
-    spaceBetween: 20, 
-    loop: true, 
-    navigation: {
-        nextEl: '#nextBtn',
-        prevEl: '#prevBtn'  
-    },
-    autoplay: {
-        delay: 3000,  // Auto-slide every 3 seconds
-        disableOnInteraction: false
-    },
-    breakpoints: {
-        768:{slidesPerView: 3},
-        575: { slidesPerView: 2 }, // Tablet: Show 2 slides
-        0: { slidesPerView: 1 }  // Mobile: Show 1 slide
-    }
-});
-
-        let partnerSwiper = new Swiper('.mySwiper', {
-            slidesPerView: "auto", 
-            spaceBetween: 20, 
-            loop: true,  
+            slidesPerView: 3,
+            spaceBetween: 20,
+            loop: true,
+            navigation: {
+                nextEl: '#nextBtn',
+                prevEl: '#prevBtn'
+            },
             autoplay: {
-                delay: 2000, // Auto-slide every 2 seconds
+                delay: 3000,  // Auto-slide every 3 seconds
                 disableOnInteraction: false
             },
+            breakpoints: {
+                768: { slidesPerView: 3 },
+                575: { slidesPerView: 2 },
+                0: { slidesPerView: 1 }
+            }
+        });
+
+        let partnerSwiper = new Swiper('.mySwiper', {
+            slidesPerView: 5,
+            spaceBetween: 20,
+            loop: true,
+
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false
+            },
+            breakpoints: {
+                1024: { slidesPerView: 5 },
+                768: { slidesPerView: 3 },
+                575: { slidesPerView: 2 },
+                0: { slidesPerView: 1 }
+            }
         });
         function openModal() {
             document.getElementById('modal').classList.remove('hidden');

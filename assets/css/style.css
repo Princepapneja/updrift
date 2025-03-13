@@ -47,3 +47,9 @@
 .swiper-slide{
     width: 100%;
 }
+button,a {
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 0;
+}

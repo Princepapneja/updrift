@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank you | Patient Uplift</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/icons/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
@@ -41,10 +42,10 @@
     <header class="bg-black z-10 fixed w-full ">
         <div class="container">
             <div class="flex justify-between gap-2">
-                <div class="flex items-center gap-2">
+                <a href="/" class="flex items-center gap-2">
                     <img src="./assets/icons/upcirclearrow.svg" alt="Arrow">
                     <span class="text-white">Patient Uplift</span>
-                </div>
+                </a>
                 <button onclick="openModal()"
                     class="px-4 py-2.5   flex items-center gap-3 text-sm leading-[16.8px] -tracking-28 text-white bg-white/20 rounded-md  "><span>
                         Book A Strategy Session
@@ -56,55 +57,50 @@
         </div>
     </header>
     <!-- header -->
-     <!-- hero -->
-     <main class="bg-[url(./assets/images/hero-t.webp)] bg-cover   ">
+    <!-- hero -->
+    <main class="bg-[url(./assets/images/hero-t.webp)] bg-cover   ">
         <div class=" bg-white/80 py-12 pt-18 min-h-screen">
 
-        <div class="container py-10">
-            <div class=" grid place-items-center gap-4 text-center   max-w-[80%] mx-auto ">
-<div class="" >
+            <div class="container py-10">
+                <div class=" grid place-items-center gap-4 text-center   max-w-[80%] mx-auto ">
+                    <div class="">
 
-    <p
-    class="font-semibold text-black-v1 text-xl  md:text-[34px]   tracking-[-0.84px] md:leading-[50.4px]">
-    <span class="text-primary">You’re Booked!</span>  Just One More Step to Get Your $300 Custom Strategy
-</p>
-<p class="text-black-v2">To make sure you get the most out of our session, we’ve prepared a custom strategy tailored to your goals. Simply answer the five questions below, and we’ll craft a personalized game plan to help you maximize your results.
-    
-</p>
-</div>
-<p class="text-black-v2">These insights shape a strategy tailored to your success. More details mean more value from your session.</p>
-                <h4 class=" text-3xl font-semibold"> 👉 Take 60 seconds to complete the form below
-                </h4>
-              <div class="w-full">
-                <iframe
-                src="https://api.leadconnectorhq.com/widget/form/iSaFpOksTHEuS7fw0kCf"
-                style="width:100%;height:100%;border:none;border-radius:3px"
-                id="inline-iSaFpOksTHEuS7fw0kCf" 
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Assessment Form"
-                data-height="758"
-                data-layout-iframe-id="inline-iSaFpOksTHEuS7fw0kCf"
-                data-form-id="iSaFpOksTHEuS7fw0kCf"
-                title="Assessment Form"
-                    >
-              </iframe>
-              <script src="https://link.msgsndr.com/js/form_embed.js"></script>          
-                   
-              </div>
-               
+                        <p
+                            class="font-semibold text-black-v1 text-xl  md:text-[34px]   tracking-[-0.84px] md:leading-[50.4px]">
+                            <span class="text-primary">You’re Booked!</span> Just One More Step to Get Your $300 Custom
+                            Strategy
+                        </p>
+                        <p class="text-black-v2">To make sure you get the most out of our session, we’ve prepared a
+                            custom strategy tailored to your goals. Simply answer the five questions below, and we’ll
+                            craft a personalized game plan to help you maximize your results.
+
+                        </p>
+                    </div>
+                    <p class="text-black-v2">These insights shape a strategy tailored to your success. More details mean
+                        more value from your session.</p>
+                    <h4 class=" text-3xl font-semibold"> 👉 Take 60 seconds to complete the form below
+                    </h4>
+                    <div class="w-full">
+                        <iframe src="https://api.leadconnectorhq.com/widget/form/iSaFpOksTHEuS7fw0kCf"
+                            style="width:100%;height:100%;border:none;border-radius:3px"
+                            id="inline-iSaFpOksTHEuS7fw0kCf" data-layout="{'id':'INLINE'}"
+                            data-trigger-type="alwaysShow" data-trigger-value="" data-activation-type="alwaysActivated"
+                            data-activation-value="" data-deactivation-type="neverDeactivate" data-deactivation-value=""
+                            data-form-name="Assessment Form" data-height="758"
+                            data-layout-iframe-id="inline-iSaFpOksTHEuS7fw0kCf" data-form-id="iSaFpOksTHEuS7fw0kCf"
+                            title="Assessment Form">
+                        </iframe>
+                        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+
+                    </div>
+
+                </div>
+
             </div>
-
         </div>
-    </div>
 
     </main>
-     <!-- hero -->
+    <!-- hero -->
     <!-- practices -->
     <section>
         <div class="container">
@@ -373,7 +369,7 @@
                             <span> Book a Strategy Session Now</span>
                             <img class="bg-white/20 p-2 rounded-md" src="./assets/icons/right-arrow.svg" alt="Arrow">
                         </button>
-                        <span class="-tracking-36 text-center mt-4 text-black-v1 text-xs leading-[27.9px]">
+                        <span class="-tracking-36 text-center mt-4 text-black-v1 text-sm leading-[27.9px]">
                             We only work with 1 surgeon per region --
                             so secure your spot now.
 
@@ -385,7 +381,7 @@
         </div>
     </section>
     <!-- explosive -->
-      <!-- Faq -->
+    <!-- Faq -->
     <section class="py-5 md:py-10">
         <div class="container">
             <div class="grid place-items-center gap-8">
@@ -550,7 +546,7 @@
                                 <img class="bg-white/20 p-2 rounded-md" src="./assets/icons/right-arrow.svg"
                                     alt="Arrow">
                             </button>
-                            <span class="-tracking-36 text-center mt-4 text-black-v1 text-xs leading-[27.9px]">
+                            <span class="-tracking-36 text-center mt-4 text-black-v1 text-sm leading-[27.9px]">
                                 Limited to 1 Surgeon per Region -- book now to see if yours is still available!
                             </span>
                         </div>
